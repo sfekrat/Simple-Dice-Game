@@ -1,0 +1,104 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+button {
+  outline: none;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  background: transparent;
+  color: #4ECCA3;
+  text-transform: uppercase;
+  border: 3px solid #4ECCA3;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 40px;
+}
+button:hover {
+  color: #222228;
+}
+button span {
+  transition: all 0.7s;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  background: #378f72;
+}
+button .first {
+  right: 100%;
+  top: 0;
+}
+button:hover .first {
+  top: 0;
+  right: 0;
+}
+
+button .second {
+  left: 25%;
+  top: -100%;
+}
+button:hover .second {
+  top: 0;
+  left: 50%;
+}
+
+button .third {
+  left: 50%;
+  top: 100%;
+
+}
+button:hover .third {
+  left:25%;
+  top: 0;
+}
+
+button .fourth {
+  left: 100%;
+  top: 0;
+}
+button:hover .fourth {
+  top: 0;
+  left: 0;
+}
